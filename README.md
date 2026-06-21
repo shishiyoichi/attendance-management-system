@@ -1,5 +1,7 @@
 **勤怠管理システム**
 
+<img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/e656959f-6fc9-41d5-9432-dbf37926f1e7" />
+
 ▼アプリケーションURL
 (http://localhost:8081/)
 
