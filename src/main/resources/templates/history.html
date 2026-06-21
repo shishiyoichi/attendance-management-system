@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>履歴一覧</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="container mt-5">
+
+<h1>履歴一覧</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>履歴</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+    
+    <tr th:each="line, stat : ${historyList}">
+        <td th:text="${line}"></td>
+        <td>
+            <a th:if="${!line.endsWith('---')}"
+               th:href="@{/edit(index=${stat.index})}"
+               class="btn btn-sm btn-primary">
+                編集
+            </a>
+            
+            <a th:if="${line.endsWith('出勤')}"
+               th:href="@{/delete(index=${stat.index})}"
+               class="btn btn-sm btn-danger">
+                削除
+            </a>
+        </td>
+    </tr>
+    
+    </tbody>
+</table>
+
+<a href="/">戻る</a>
+
+</body>
+</html>

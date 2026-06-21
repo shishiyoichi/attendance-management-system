@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>編集</title>
+</head>
+<body>
+
+<h1>履歴編集</h1>
+
+<div class="alet alert-info">
+    現在の履歴：
+    <strong th:text="${line}"></strong>
+</div>
+
+<form action="/update">
+    <input type="hidden"
+           name="index"
+           th:value="${index}">
+    <input type="date" name="workDate">
+    
+    <select name="hours">
+        <option th:each="i : ${#numbers.sequence(0,23)}"
+                th:value="${i}"
+                th:text="${i}">
+        </option>
+    </select>
+    <label>時</label>
+    
+    <select name="minutes">
+        <option th:each="i : ${#numbers.sequence(0,59)}"
+                th:value="${i}"
+                th:text="${i}">
+        </option>
+    </select>
+    <label>分</label>
+    
+     <select name="type">
+        <option value="出勤">出勤</option>
+        <option value="退勤">退勤</option>
+    </select>
+           
+    <button type="submit">
+        保存
+    </button>
+</form>
+
+<a href="/history">戻る</a>
+
+</body>
+</html>

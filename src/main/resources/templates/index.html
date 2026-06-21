@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>勤怠管理アプリ</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="container mt-5">
+
+<h1 class="display-4 mb-4">勤怠管理アプリ</h1>
+<p>勤務状態：<span th:text="${status}"></span></p>
+<p>本日の勤務時間：<span th:text="${todayWorkTime}"></span>
+</p>
+
+<div class="d-flex gap-2 flex-wrap">
+
+   <form action="/start" th:if="${!isWorking}">
+       <button type="submit" class="btn btn-success">出勤</button>
+   </form>
+
+   <form action="/end" th:if="${isWorking}">
+       <button type="submit" class="btn btn-danger">退勤</button>
+   </form>
+
+   <form action="/clear">    
+       <button type="submit" class="btn btn-secondary">履歴クリア</button>
+   </form>
+
+   <form action="/daily">
+       <button type="submit" class="btn btn-primary">日別集計</button>
+   </form>
+   
+   <form action="/history">
+       <button type="submit" class="btn btn-info">履歴一覧</button>
+   </form>
+
+</div>
+
+</body>
+</html>
