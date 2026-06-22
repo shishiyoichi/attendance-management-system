@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="icon.png" width="40">
+  <img src="./icon.png" width="40">
   勤怠管理システム
 </h1>
 
