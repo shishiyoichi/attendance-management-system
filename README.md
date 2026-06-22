@@ -1,3 +1,4 @@
+<img width="1254" height="1254" alt="attendance-icon png" src="https://github.com/user-attachments/assets/b94e3607-76a3-4c5a-9477-6dc93f43ec7f" />
 **勤怠管理システム**
 
 <img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/e656959f-6fc9-41d5-9432-dbf37926f1e7" />
