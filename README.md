@@ -5,7 +5,11 @@
 </p>
 
 <p align="center">
-  Java + Spring Boot
+  Java 21 / Spring Boot / Thymeleaf / Bootstrap
+</p>
+
+<p align="center">
+  出退勤管理・履歴編集・日別勤務時間集計を行うWebアプリ
 </p>
 
 <img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/e656959f-6fc9-41d5-9432-dbf37926f1e7" />
