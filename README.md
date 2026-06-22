@@ -1,16 +1,7 @@
-<h1 align="center">**勤怠管理システム**</h1>
-
-<p align="center">
-  <img src="img width="1254" height="1254" alt="attendance-icon png" src="https://github.com/user-attachments/assets/b94e3607-76a3-4c5a-9477-6dc93f43ec7f"" width="300">
-</p>
-
-<p align="center">
-  Java 21 / Spring Boot / Thymeleaf / Bootstrap
-</p>
-
-<p align="center">
-  出退勤管理・履歴編集・日別勤務時間集計を行うWebアプリ
-</p>
+<h1 align="center">
+  <img src="images/icon.png" width="40">
+  勤怠管理システム
+</h1>
 
 <img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/e656959f-6fc9-41d5-9432-dbf37926f1e7" />
 
