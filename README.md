@@ -1,5 +1,12 @@
-<img width="1254" height="1254" alt="attendance-icon png" src="https://github.com/user-attachments/assets/b94e3607-76a3-4c5a-9477-6dc93f43ec7f" />
-**勤怠管理システム**
+<h1 align="center">**勤怠管理システム**</h1>
+
+<p align="center">
+  <img src="img width="1254" height="1254" alt="attendance-icon png" src="https://github.com/user-attachments/assets/b94e3607-76a3-4c5a-9477-6dc93f43ec7f"" width="300">
+</p>
+
+<p align="center">
+  Java + Spring Boot
+</p>
 
 <img width="364" height="234" alt="image" src="https://github.com/user-attachments/assets/e656959f-6fc9-41d5-9432-dbf37926f1e7" />
 
